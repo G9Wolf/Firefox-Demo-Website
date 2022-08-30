@@ -1,0 +1,76 @@
+#SecondLine {
+    height: 50vh;
+}
+
+@media (orientation: portrait) {
+    #SecondLine {
+        height: 100vh;
+    }
+}
+
+@media (orientation: portrait) {
+    #SecondLineRow {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+#SecondLineLeft {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#SecondLineRight {
+    height: 50vh;
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#SecondLineLeftSVG {
+    width: 55%;
+    height: 85%;
+}
+
+@media (orientation: portrait) {
+    #SecondLineLeftSVG {
+        width: 65%;
+        height: 65%;
+        margin-top: 15vh;
+    }
+}
+
+#HeaderSecondLineTitle {
+    color: #FFA648;
+    font-size: 3em;
+    padding-top: 7vh;
+    padding-left: 5vh;
+}
+
+@media (orientation: portrait) {
+    #HeaderSecondLineTitle {
+        color: #FFA648;
+        font-size: 3em;
+        padding-top: 6vh;
+        padding-left: 1vh;
+    }
+}
+
+#HeaderSecondLineText {
+    color: grey;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+@media (orientation: portrait) {
+    #HeaderSecondLineText {
+        color: grey;
+        padding-left: 7vh;
+        padding-right: 7vh;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+}

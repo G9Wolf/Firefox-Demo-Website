@@ -1,0 +1,35 @@
+#FifthLine {
+    height: 35vh;
+    background-color: #20123A;
+    display: block;
+}
+
+#FifthLineTitle {
+    color: white;
+    font-size: 2.6rem;
+    padding-top: 7vh;
+    padding-left: 10vh;
+    font-weight: bold;
+}
+
+@media (orientation: portrait) {
+    #FifthLineTitle {
+        color: white;
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+}
+
+#FifthLineText {
+    color: white;
+    font-size: 2.0rem;
+    padding-top: 1vh;
+    padding-left: 10vh;
+}
+
+@media (orientation: portrait) {
+    #FifthLineText {
+        color: white;
+        font-size: 1.6rem;
+    }
+}
